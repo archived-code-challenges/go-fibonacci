@@ -26,8 +26,8 @@ func NewFibonacciService() FibonacciService {
 
 // MapRecursive approach of calculating the n-th fibonacci sequence number.
 // The map is used to avoid redundant calls when recursively solving the algorithm.
-// Time Complexity : O(n)
-// Space Complexity : O(n)
+// Time Complexity : O(2^n)
+// Space Complexity : O(2^n)
 func (fm fibonacci) MapRecursive(n uint8, mem map[uint8]uint64) uint64 {
 	if n <= 1 {
 		return uint64(n)
@@ -44,8 +44,8 @@ func (fm fibonacci) MapRecursive(n uint8, mem map[uint8]uint64) uint64 {
 }
 
 // Recursive approach of calculating the n-th fibonacci sequence number.
-// Time Complexity : O(n)
-// Space Complexity : O(n)
+// Time Complexity : O(2^n)
+// Space Complexity : O(2^n)
 func (fm fibonacci) Recursive(n uint8) uint64 {
 	if n <= 1 {
 		return uint64(n)
