@@ -65,17 +65,6 @@ The next step is to hit the `fib` endpoint and start querying the API
 
 Noel Ruault - [@noelruault](https://github.com/noelruault)
 
-## Feedback
-
-Has implementations of multiple basic Fibonacci algorithms but don't have
-matrix exponentiation or phi approximations. Has some wrong claims in the
-comments - recursive algorithm is not O(n) complex, it's O(2^n). Besides
-that, the code structure is actually really nice and reminds me how one
-would do a longer-term web service project, not a two-hour exercise. Most
-importantly it shows familiarity and experience with Go. Kubernetes part is
-basic, doesn't do health checks even though the service has health check
-endpoint.
-
 ## Further development
 
 [High-performance Fibonacci numbers generator in Go](https://blog.abelotech.com/posts/fibonacci-numbers-golang/)
